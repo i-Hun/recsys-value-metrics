@@ -1,0 +1,17 @@
+[project]
+name = "MERS"
+version = "0.0.1"
+authors = [
+  { name="Oleg Nagornyi", email="ostnagorny@sberbank.ru" },
+]
+description = "Metrics for economic recommender systems."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py38"
